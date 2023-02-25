@@ -8,7 +8,8 @@
 body {
 	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
-	background-color: #f8f8fc;
+	background-image: url("../images/background/space.jpg");
+	background-size: 1000px
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
@@ -54,5 +55,42 @@ body {
 	color: #1D2DE0;
 	text-align: center;
 	font-style: italic;
-	text-decoration: underline #E09500;
+	text-decoration: underline pink;
+}
+h1.fugaz-one {
+	font-family: 'Fugaz One', cursive;
+	font-size: 100px;
+	text-shadow: 5px 5px pink;
+	
+}
+
+h2.fugaz-one {
+	font-family: 'Fugaz One', cursive;
+	text-shadow: 3px 3px lightblue
+}
+
+
+a:link {
+
+color: blue;
+
+}
+
+a:visited {
+
+color: purple;
+
+}
+
+a:hover {
+
+color: blue;
+
+background-color: yellow;
+
+}
+
+.pinkbg span {
+	background-color: pink;
+	width: auto;
 }
