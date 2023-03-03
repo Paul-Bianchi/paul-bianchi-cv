@@ -52,7 +52,7 @@ body {
 }
 
 .funky-text {
-	color: #1D2DE0;
+	color: #0022A5;
 	text-align: center;
 	font-style: italic;
 	text-decoration: underline pink;
@@ -93,4 +93,8 @@ background-color: yellow;
 .pinkbg span {
 	background-color: pink;
 	width: auto;
+}
+
+.languagecolor {
+	background-color: #e0f0ff
 }
